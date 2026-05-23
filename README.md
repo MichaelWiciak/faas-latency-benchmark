@@ -1,3 +1,1 @@
 # FunctionAsAService
-
-:)S
