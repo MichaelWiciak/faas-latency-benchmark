@@ -55,7 +55,7 @@ def generate_test_case(length, minSize, maxSize):
 
 # increasing length of numbers
 def IncreasingLength():
-    with open("IncreasingLength.csv", "w", encoding="utf-8") as file:
+    with open("results/IncreasingLength.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -67,7 +67,7 @@ def IncreasingLength():
 
 # start with decreasing length numbers
 def DecreasingLength():
-    with open("DecreasingLength.csv", "w", encoding="utf-8") as file:
+    with open("results/DecreasingLength.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -79,7 +79,7 @@ def DecreasingLength():
 
 # give it same length over and over.
 def SameLength():
-    with open("SameLength.csv", "w", encoding="utf-8") as file:
+    with open("results/SameLength.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -90,7 +90,7 @@ def SameLength():
 
 
 def SameLengthHeavyComputation():
-    with open("SameLengthHeavyComputation.csv", "w", encoding="utf-8") as file:
+    with open("results/SameLengthHeavyComputation.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -102,7 +102,7 @@ def SameLengthHeavyComputation():
 
 # random numbers of length: pretty useless
 def RandomLength():
-    with open("RandomLength.csv", "w", encoding="utf-8") as file:
+    with open("results/RandomLength.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -115,7 +115,7 @@ def RandomLength():
 
 # cold start heavy computation
 def ColdStartHeavyComputation():
-    with open("ColdStartHeavyComputation.csv", "w", encoding="utf-8") as file:
+    with open("results/ColdStartHeavyComputation.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -126,7 +126,7 @@ def ColdStartHeavyComputation():
 
 # warm start heavy computation
 def WarmStartHeavyComputation():
-    with open("WarmStartHeavyComputation.csv", "w", encoding="utf-8") as file:
+    with open("results/WarmStartHeavyComputation.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -140,7 +140,7 @@ def WarmStartHeavyComputation():
 
 # cold start easy computation
 def ColdStartEasyComputation():
-    with open("ColdStartEasyComputation.csv", "w", encoding="utf-8") as file:
+    with open("results/ColdStartEasyComputation.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -151,7 +151,7 @@ def ColdStartEasyComputation():
 
 # warm start easy computation
 def WarmStartEasyComputation():
-    with open("WarmStartEasyComputation.csv", "w", encoding="utf-8") as file:
+    with open("results/WarmStartEasyComputation.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])
 
@@ -167,7 +167,7 @@ def WarmStartEasyComputation():
 def HeavyComputationStopHeavyComputation():
     # warm start
     with open(
-        "HeavyComputationStopHeavyComputation.csv", "w", encoding="utf-8"
+        "results/HeavyComputationStopHeavyComputation.csv", "w", encoding="utf-8"
     ) as file:
         writer = csv.writer(file)
         writer.writerow(["Latency", "Length of Numbers"])

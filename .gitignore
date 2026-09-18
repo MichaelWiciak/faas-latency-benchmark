@@ -1,5 +1,6 @@
 .DS_Store
-__*
+__pycache__/
+*.pyc
 .venv
 
 HeapSortKey.pem
