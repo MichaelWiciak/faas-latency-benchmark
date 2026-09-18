@@ -12,7 +12,7 @@ function on both platforms and measuring end-to-end latency.
 - `results/` — raw CSVs from Azure and OpenFaaS runs
 - `figures/` — generated plots
 
-## Running the benchmark
+## Running it
 
 1. Deploy the function on Azure (`func azure functionapp publish ...`) and/or OpenFaaS.
 2. Set the function `URL` at the top of `azureFaaStest.py`.
